@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swnb/ts-websocket.git"
+    "url": "git+https://github.com/swnb/types.git"
   },
   "keywords": [
     "types",
@@ -22,9 +22,9 @@
   "author": "swnb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/swnb/ts-websocket/issues"
+    "url": "https://github.com/swnb/types/issues"
   },
-  "homepage": "https://github.com/swnb/ts-websocket#readme",
+  "homepage": "https://github.com/swnb/types#readme",
   "devDependencies": {
     "@swnb/fabric": "^0.4.5"
   }
