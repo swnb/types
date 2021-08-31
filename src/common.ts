@@ -7,3 +7,5 @@ export type TypeArray<T, N extends number, R extends T[] = []> = R['length'] ext
 export type Arguments<T extends (...args: any[]) => any> = T extends (...args: infer Args) => any
   ? Args
   : never
+
+export type ExtractPromise<T extends Promise<any>> = T extends Promise<infer R> ? R : never
